@@ -12,4 +12,6 @@ LogManager\SdkLogs\SdkLogsServiceProvider::class,
 'SDKLogs' => LogManager\SdkLogs\Facades\SDKLogs::class,
 ```
 - Criar o arquivo de configuração deste package, com o comando 
-`php artisan vendor:publish --provider="LogManager\SdkLogs\SdkLogsServiceProvider" --tag="config"`
+````
+php artisan vendor:publish --provider="LogManager\SdkLogs\SdkLogsServiceProvider" --tag="config"
+`
